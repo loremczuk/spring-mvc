@@ -1,0 +1,25 @@
+urls:
+  company:
+    root: companies
+    employee:
+      root: employees
+
+---
+spring:
+  config:
+    activate:
+      on-profile: Polish
+urls:
+  company:
+    root: firmy
+    employee:
+      root: pracownicy
+
+---
+spring:
+  profiles: Spanish
+urls:
+  company:
+    root: empresas
+    employee:
+      root: empleadores
